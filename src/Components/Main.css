@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  font-family: "Merriweather", serif;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  text-align: center;
+}
+
+.box {
+  /* border: 2px solid black; */
+  width: 80%;
+  height: 80vh;
+  position: absolute;
+  top: 10%;
+  /* background-color: skyblue; */
+  border-radius: 10px;
+  box-shadow: 5px 10px 50px skyblue;
+}
+
+.inputData input {
+  padding: 15px 80px;
+  margin-top: 10px;
+  border-radius: 15px;
+  border: none;
+  text-align: center;
+  outline: none;
+  text-transform: capitalize;
+  background-color: #81b29a;
+  color: white;
+  box-shadow: 5px 10px 50px black;
+}
+
+.data {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+}
+
+.temp {
+  padding-top: 30px;
+}
+
+.dest {
+  padding-top: 10px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.loc_logo {
+  padding-right: 10px;
+}
+
+.temp_logo {
+  padding-left: 10px;
+}
+
+.notfound_city {
+  padding-top: 100px;
+}
+
+.error_emoji {
+  position: absolute;
+  padding-left: 8px;
+  font-size: 20px;
+}
+
+.container img {
+  height: 700px;
+  width: 100vw;
+}
+
+@media (max-width: 500px) {
+  .inputData input {
+    padding: 8px 20px;
+  }
+}
